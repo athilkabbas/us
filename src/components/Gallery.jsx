@@ -1,19 +1,20 @@
 import './Gallery.css';
 
 const Gallery = () => {
+  const base = import.meta.env.BASE_URL;
   const photos = [
-    { id: 1, url: "/20260531_172735.jpg", alt: "Anniversary memory 1" },
-    { id: 2, url: "/PXL_20241230_200343416.jpg", alt: "Anniversary memory 2" },
-    { id: 3, url: "/PXL_20250226_154443624.jpg", alt: "Anniversary memory 3" },
-    { id: 4, url: "/PXL_20250405_230327692.jpg", alt: "Anniversary memory 4" },
-    { id: 5, url: "/PXL_20250929_111056382.jpg", alt: "Anniversary memory 5" },
-    { id: 6, url: "/PXL_20250929_134846096.jpg", alt: "Anniversary memory 6" },
-    { id: 7, url: "/PXL_20250930_124806261~3.jpg", alt: "Anniversary memory 7" },
-    { id: 8, url: "/PXL_20250930_160747724.jpg", alt: "Anniversary memory 8" },
-    { id: 9, url: "/PXL_20250930_194902229.jpg", alt: "Anniversary memory 9" },
-    { id: 10, url: "/PXL_20251018_164131219.jpg", alt: "Anniversary memory 10" },
-    { id: 11, url: "/PXL_20251222_112406261.jpg", alt: "Anniversary memory 11" },
-    { id: 12, url: "/PXL_20251223_084258988.jpg", alt: "Anniversary memory 12" },
+    { id: 1, url: `${base}20260531_172735.jpg`, alt: "Anniversary memory 1" },
+    { id: 2, url: `${base}PXL_20241230_200343416.jpg`, alt: "Anniversary memory 2" },
+    { id: 3, url: `${base}PXL_20250226_154443624.jpg`, alt: "Anniversary memory 3" },
+    { id: 4, url: `${base}PXL_20250405_230327692.jpg`, alt: "Anniversary memory 4" },
+    { id: 5, url: `${base}PXL_20250929_111056382.jpg`, alt: "Anniversary memory 5" },
+    { id: 6, url: `${base}PXL_20250929_134846096.jpg`, alt: "Anniversary memory 6" },
+    { id: 7, url: `${base}PXL_20250930_124806261~3.jpg`, alt: "Anniversary memory 7" },
+    { id: 8, url: `${base}PXL_20250930_160747724.jpg`, alt: "Anniversary memory 8" },
+    { id: 9, url: `${base}PXL_20250930_194902229.jpg`, alt: "Anniversary memory 9" },
+    { id: 10, url: `${base}PXL_20251018_164131219.jpg`, alt: "Anniversary memory 10" },
+    { id: 11, url: `${base}PXL_20251222_112406261.jpg`, alt: "Anniversary memory 11" },
+    { id: 12, url: `${base}PXL_20251223_084258988.jpg`, alt: "Anniversary memory 12" },
   ];
 
   return (

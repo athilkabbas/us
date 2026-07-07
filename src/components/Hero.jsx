@@ -1,8 +1,9 @@
 import './Hero.css';
 
 const Hero = () => {
+  const base = import.meta.env.BASE_URL;
   return (
-    <section className="hero">
+    <section className="hero" style={{ backgroundImage: `url('${base}hero_bg.png')` }}>
       <div className="hero-overlay"></div>
       <div className="hero-content fade-in-up">
         <h2 className="hero-subtitle">Celebrating Our Journey</h2>

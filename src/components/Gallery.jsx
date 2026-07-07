@@ -15,6 +15,7 @@ const Gallery = () => {
     { id: 10, url: `${base}/PXL_20251018_164131219.jpg`, alt: "Anniversary memory 10" },
     { id: 11, url: `${base}/PXL_20251222_112406261.jpg`, alt: "Anniversary memory 11" },
     { id: 12, url: `${base}/PXL_20251223_084258988.jpg`, alt: "Anniversary memory 12" },
+    { id: 13, url: `${base}/morocco_snow.png`, alt: "Anniversary memory 13" },
   ];
 
   return (

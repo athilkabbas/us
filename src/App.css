@@ -1,0 +1,4 @@
+/* App specific styles (most styles in index.css) */
+.app-container {
+  overflow-x: hidden;
+}
